@@ -45,7 +45,7 @@ function Payment() {
       // 1.backend || function ---> contact to the client secret.
       const response = await axiosInstance({
         method: "POST",
-        url: `/payment/create?total=${total * 100}`,
+        url: `/payment/create?total=${Math.round(total * 100)}`,
       });
 
       console.log(response.data);
