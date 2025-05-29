@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from "react";
 import "./App.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Routing from "./Router";
-import { DataContext } from "./components/DataProvider/DataProvider";
+import { DataContext } from "./components/DataProvider/DataProvider.jsx";
 import { Type } from "./Utility/action.type";
 import { auth } from "./Utility/firebase";
 
