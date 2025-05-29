@@ -15,7 +15,7 @@ function App() {
           type: Type.SET_USER,
           user: authUser,
         });
-      }else{
+      } else {
         dispatch({
           type: Type.SET_USER,
           user: null,

@@ -9,7 +9,7 @@ import Results from "./Pages/Results/Results";
 import ProductDetail from "./Pages/ProductDetail/ProductDetail";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
-import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
+import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 
 const stripePromise = loadStripe(
   "pk_test_51RSgP6FgY6exGCoraAvn41qy6TsOC14uF9D20cWwkSkJzCPUWsY6hDSHLauS3jnyTquhRmhs8n0qgoR4Ko6qFHAf00cY2DtgNp"
